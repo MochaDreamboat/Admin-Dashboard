@@ -5,9 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto&display=swap');
+        </style>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>What's good</h1>
+    <div class="grid-wrapper">
+        <sidebar id="dashboard">
+            <div class="dash-logo">
+                <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="24" height="24" viewBox="0 0 24 24"><path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" style="color: white;"/></svg>
+                <h2>Dashboard</h2>
+            </div>
+            <ul class="options">
+                <li>Home</li>
+                <li>Profile</li>
+                <li>Messages</li>
+                <li>History</li>
+                <li>Tasks</li>
+                <li>Communities</li>
+            </ul>
+            <ul class="options">
+                <li>Settings</li>
+                <li>Support</li>
+                <li>Privacy</li>
+            </ul>
+        </sidebar>
+    
+        <header id="tools">
+            <div id="searchbar">
+                <h2>logo</h2>
+                <input type="text">
+            </div>
+            <div id="profileAndNotifications">
+                <p>a bell</p>
+                <p>an icon</p>
+                <p>Jerold Macaya</p>
+            </div>
+            <div id="greetings">
+                <div class="icon_placeholder"></div>
+                <p>Hi there,</p>
+                <h3>Jerold Macaya</h3>
+            </div>
+            <div id="fileOptions">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </header>
+        <main id="user-content">
+    
+        </main>
+    </div>
 </body>
 </html>
